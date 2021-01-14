@@ -65,6 +65,9 @@ li{
   margin-top: 1rem;
 
 }
+imput, 
+select,
+textarea,
 button {
   padding: 1 rem;
   border-radius: 0.5rem;
@@ -73,9 +76,15 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+button {
   background-color: #f8f8f8;
   cursor: pointer;
 }
+imput:hover, 
+select:hover,
+textarea:hover,
 button:hover {
   border: 0.1rem #404040 solid;
 }
