@@ -196,6 +196,10 @@ img.large{
   color: #a02020;
   background-color: #ffe0e0e0;
 }
+.alert-success {
+  color: #20a020;
+  background-color: #eeffe0;
+}
 /* Form */
 .form {
   max-width: 60rem;
@@ -210,11 +214,10 @@ img.large{
 
 .form label {
   margin: 1rem 0;
-  display: block;
 }
 
-/*Drop Down */
-.dropdown{
+/* Dropdown */
+.dropdown {
   display: inline-block;
   position: relative;
 }
@@ -222,7 +225,7 @@ img.large{
   position: absolute;
   display: none;
   right: 0;
-  min-width: 12 rem;
+  min-width: 12rem;
   padding: 1rem;
   z-index: 1;
   background-color: #203040;
@@ -230,7 +233,7 @@ img.large{
   margin-top: 0.4rem;
   border-radius: 0.5rem;
 }
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
   display: block;
 }
 
